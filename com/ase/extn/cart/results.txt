@@ -1,0 +1,108 @@
+System-id : ajstats
+Size of lambda set: 11
+()
+Detailed learning projections:
+<curve-id> : {<details>}
+()
+weiss:{'standard deviation': None, 'accuracy': None, 'optimal sample size': -1, 'correlation': 0.093085889400979518}
+exp:{'standard deviation': 0.039976692702214975, 'accuracy': 98.616142981191715, 'optimal sample size': 2013, 'correlation': -0.22543369297623039}
+power:{'standard deviation': 1.6693773193914609, 'accuracy': 96.414574217359998, 'optimal sample size': 36, 'correlation': -0.03929442790878955}
+log:{'standard deviation': 0.16229601532795945, 'accuracy': 98.067997461220031, 'optimal sample size': 218, 'correlation': -0.03842397855478337}
+-----------------------------------------------
+()
+System-id : Apache
+Size of lambda set: 15
+()
+Detailed learning projections:
+<curve-id> : {<details>}
+()
+weiss:{'standard deviation': 0.90499806106579972, 'accuracy': 91.971750223036778, 'optimal sample size': 46, 'correlation': -0.88528802943170004}
+exp:{'standard deviation': 0.84364330895660666, 'accuracy': 92.3394003546764, 'optimal sample size': 55, 'correlation': -0.97755503058424276}
+power:{'standard deviation': 4.553163825917605, 'accuracy': 89.159281351783051, 'optimal sample size': 21, 'correlation': -0.90913689410888299}
+log:{'standard deviation': None, 'accuracy': None, 'optimal sample size': 688, 'correlation': -0.9510162864495405}
+-----------------------------------------------
+()
+System-id : BerkeleyC
+Size of lambda set: 14
+()
+Detailed learning projections:
+<curve-id> : {<details>}
+()
+weiss:{'standard deviation': 0.91409010932385637, 'accuracy': 95.576607438910472, 'optimal sample size': 26, 'correlation': -0.96882245531389533}
+exp:{'standard deviation': 0.60730810955527759, 'accuracy': 96.193368239862863, 'optimal sample size': 42, 'correlation': -0.98381993392318956}
+power:{'standard deviation': 1.4086882917266876, 'accuracy': 94.6155707213575, 'optimal sample size': 16, 'correlation': -0.99044868980377265}
+log:{'standard deviation': None, 'accuracy': None, 'optimal sample size': 219, 'correlation': -0.99449635933498648}
+-----------------------------------------------
+()
+System-id : BerkeleyDB
+Size of lambda set: 7
+()
+Detailed learning projections:
+<curve-id> : {<details>}
+()
+weiss:{'standard deviation': 0.93484594550776512, 'accuracy': 98.260945200445619, 'optimal sample size': 70, 'correlation': -0.69193364278904423}
+exp:{'standard deviation': 0.11044940141396555, 'accuracy': 98.489173544288633, 'optimal sample size': 97, 'correlation': -0.86624832892499437}
+power:{'standard deviation': 0.1347378005998181, 'accuracy': 98.474338676790595, 'optimal sample size': 91, 'correlation': -0.76476021565483077}
+log:{'standard deviation': None, 'accuracy': None, 'optimal sample size': 2110, 'correlation': -0.7610242360409325}
+-----------------------------------------------
+()
+System-id : BerkeleyDBC
+Size of lambda set: 32
+()
+Detailed learning projections:
+<curve-id> : {<details>}
+()
+weiss:{'standard deviation': 0.016827087299682898, 'accuracy': 99.575066777205947, 'optimal sample size': 982, 'correlation': -0.95193546837778631}
+exp:{'standard deviation': 1.0892580820359372, 'accuracy': 98.487369656669316, 'optimal sample size': 194, 'correlation': -0.95355893988149221}
+power:{'standard deviation': 1.0730624971842055, 'accuracy': 98.328148574873794, 'optimal sample size': 161, 'correlation': -0.95392378332431738}
+log:{'standard deviation': None, 'accuracy': None, 'optimal sample size': 218626, 'correlation': -0.97042495342722979}
+-----------------------------------------------
+()
+System-id : BerkeleyDBJ
+Size of lambda set: 20
+()
+Detailed learning projections:
+<curve-id> : {<details>}
+()
+weiss:{'standard deviation': 0.4242980928488041, 'accuracy': 97.485140431489114, 'optimal sample size': 68, 'correlation': -0.93840183775038444}
+exp:{'standard deviation': 7.8649434861717662, 'accuracy': 95.95476644123579, 'optimal sample size': 57, 'correlation': -0.99088972175168366}
+power:{'standard deviation': 20.468934055951173, 'accuracy': 84.097580372790588, 'optimal sample size': 22, 'correlation': -0.94426650089409547}
+log:{'standard deviation': None, 'accuracy': None, 'optimal sample size': 1323, 'correlation': -0.98820067219442198}
+-----------------------------------------------
+()
+System-id : clasp
+Size of lambda set: 45
+()
+Detailed learning projections:
+<curve-id> : {<details>}
+()
+weiss:{'standard deviation': 0.6227569932409408, 'accuracy': 98.485201953442157, 'optimal sample size': 167, 'correlation': -0.98519665953053948}
+exp:{'standard deviation': 0.61896822722964551, 'accuracy': 98.192266219387463, 'optimal sample size': 141, 'correlation': -0.90701823013960026}
+power:{'standard deviation': 3.2859034538905227, 'accuracy': 88.748368168973585, 'optimal sample size': 48, 'correlation': -0.98162110099153521}
+log:{'standard deviation': None, 'accuracy': None, 'optimal sample size': 5244, 'correlation': -0.96231711680108556}
+-----------------------------------------------
+()
+System-id : EPL
+Size of lambda set: 28
+()
+Detailed learning projections:
+<curve-id> : {<details>}
+()
+weiss:{'standard deviation': 2.5538935703723906, 'accuracy': 94.49236205770589, 'optimal sample size': 20, 'correlation': -0.77635329627667338}
+exp:{'standard deviation': None, 'accuracy': None, 'optimal sample size': -83, 'correlation': -0.82833372923215021}
+power:{'standard deviation': 2.972145067992471, 'accuracy': 93.085260580818456, 'optimal sample size': 13, 'correlation': -0.80407129994485915}
+log:{'standard deviation': 1.1552293378100851, 'accuracy': 97.875804216975638, 'optimal sample size': 104, 'correlation': -0.80664302821222134}
+-----------------------------------------------
+()
+System-id : lrzip
+Size of lambda set: 65
+()
+Detailed learning projections:
+<curve-id> : {<details>}
+()
+weiss:{'standard deviation': None, 'accuracy': None, 'optimal sample size': 419, 'correlation': -0.97964933001397125}
+exp:{'standard deviation': 4.1939263130185784, 'accuracy': 91.787436950426539, 'optimal sample size': 164, 'correlation': -0.87491352861804095}
+power:{'standard deviation': 44.555773321024311, 'accuracy': 47.376151249629373, 'optimal sample size': 47, 'correlation': -0.98011840611391565}
+log:{'standard deviation': None, 'accuracy': None, 'optimal sample size': 26765, 'correlation': -0.91114076749014106}
+-----------------------------------------------
+()
