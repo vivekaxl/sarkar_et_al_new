@@ -9,5 +9,6 @@ for file in files:
     headers = [h for h in df.columns if '$<' not in h]
     data = df[headers]
     R, C = np.shape(data)  # No. of Rows and Col
-    str_pr =  "\"" + file + "\" :[" + str(C) + "," +  str(R) + "],"
+    str_pr =  "\"" + file + "\","
+    # str_pr =  "\"" + file + "\" :[" + str(C) + "," +  str(R) + "],"
     print str_pr,

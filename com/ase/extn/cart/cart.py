@@ -17,7 +17,7 @@ strategy = projective|progressive
 system = all|apache|bc|bj|llvm|sqlite|x264
 '''
 strategy = "projective"
-system = 'ajstats'
+system = 'all'
 
 thismodule = sys.modules[__name__]
 loc = os.path.dirname(__file__)
@@ -26,7 +26,7 @@ base_dir = os.path.join(loc,'data')
 base_dir_in = os.path.join(base_dir,'input')
 base_dir_out = os.path.join(base_dir,'output')
 
-all_systems = ['apache','bc','bj','llvm','sqlite','x264']
+all_systems = ["ajstats", "Apache", "BerkeleyC", "BerkeleyDB", "BerkeleyDBC", "BerkeleyDBJ", "clasp", "EPL", "lrzip"]
 '''
 details_map holds the following data-
 details_map = {<system-id> :[<no_of_features>,<size_of_sample_space>]}
@@ -237,11 +237,7 @@ def projective(system_val):
             else:
                 results[curr_size] = [calc_accuracy(out,perf_values[test_set_indices])]
             
-            '''
-            Update frequency table based on training set feature activation/de-activation
-            We are refreshing the values in each iteration instead of making it incremental.
-            This is in-efficient but keeps thing simple.
-            '''
+
             for k in range(details_map[system][0]):
                 if not freq_table[0][k]==sys.maxsize:
                     active_count = np.count_nonzero(training_set[:,k])
